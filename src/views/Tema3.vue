@@ -28,7 +28,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido
       h2 3.1 Reseña histórica del calzado deportivo
     
     .bg-full-width-2.bg-fondo-2.mb-3
@@ -41,7 +41,7 @@
             p(data-aos="fade-left") El origen del calzado deportivo se remonta al siglo XIX, cuando surgió la necesidad de un zapato más adecuado para actividades físicas. En <b>1839</b>, Charles Goodyear inventó la vulcanización del caucho, lo que permitió fabricar suelas <b>más resistentes y elásticas</b>. Esto facilitó la aparición de los primeros modelos como los <em>plimsolls</em>, usados en actividades náuticas y juegos informales.
 
             .row
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/temas/tema3/3.svg", data-aos="zoom-in")
               .col-lg-8
@@ -52,14 +52,14 @@
         .row.justify-content-center 
           .col-lg-10
             .row.align-items-center.px-4.px-md-5.py-4.bg-color-9.tarjeta
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/temas/tema3/5.png", style="max-width: 315px").mx-auto
               .col-lg
                 p.mb-0 En la segunda mitad del siglo XX y el siglo XXI, la evolución tecnológica permitió integrar amortiguación de aire, espumas de alta respuesta, tejidos transpirables y suelas adaptadas a distintos terrenos. Además, surgió una fuerte influencia de la moda urbana, haciendo del calzado deportivo un objeto funcional y estético.
 
     separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido
       h2 3.2 Variaciones del modelo deportivo
             
     p.mb-5 El calzado deportivo se ha diversificado para ajustarse a las exigencias específicas de cada disciplina, tipo de terreno y usuario. A continuación, se presenta una tabla comparativa con las principales categorías:
@@ -72,15 +72,15 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-contenido
       h2 3.3 Modelos icónicos de zapatillas deportivas
     
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
-        .col-lg-3.mb-4.mb-lg-0.order-2
+        .col-lg-3.mb-4.mb-lg-0.order-lg-2
           figure
             img(src="@/assets/curso/temas/tema3/6.png", data-aos="zoom-in") 
-        .col-lg-9.order-1
+        .col-lg-9.order-lg-1
           .bloque-texto-a__texto.p-4
             p A lo largo de la historia, algunos modelos de zapatillas han marcado tendencias tanto en el ámbito deportivo como en la moda urbana. Estos modelos destacan por su diseño, evolución y capacidad de adaptarse a distintos contextos de uso. A continuación, se analizan tres tipos representativos: <em>Court, Royal y Running</em>.
     
@@ -99,12 +99,12 @@
             p(data-aos="fade-left") El término court hace referencia a las canchas deportivas donde se practicaban disciplinas como tenis, squash y baloncesto. Las primeras zapatillas court surgieron en las décadas de 1920-1930. Estaban confeccionadas en lona con suelas de goma, diseñadas para evitar daños en las superficies de juego.
 
             .row
-              .col-lg-4
+              .col-lg-4.mb-3.mb-lg-0
                 figure
                   img(src="@/assets/curso/temas/tema3/7.png", data-aos="zoom-in")
               .col-lg-8
                 div.bg-color-8.p-5.tarjeta(data-aos="fade-left")
-                  img.mb-3(src="@/assets/curso/temas/tema3/13.svg", style="max-width: 90px")
+                  img.mb-3.d-none.d-lg-flex(src="@/assets/curso/temas/tema3/13.svg", style="max-width: 90px")
                   p.mb-0 En las décadas de 1960 y 1970, marcas como Adidas introdujeron modelos como las <b>Stan Smith</b>, fabricadas en cuero blanco, que mejoraron tanto en durabilidad como en estética. Con el paso del tiempo, este tipo de zapatilla trascendió su uso deportivo para convertirse en un <b>ícono de la moda urbana</b>, manteniendo su diseño sobrio y minimalista.
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")

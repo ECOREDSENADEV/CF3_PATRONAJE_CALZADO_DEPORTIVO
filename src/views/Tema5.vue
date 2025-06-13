@@ -18,7 +18,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_5_1.titulo-segundo.color-acento-contenido
       h2 5.1 Elaborar molde patrón para el modelo deportivo tipo court
     
     p.mb-5 Para la construcción del molde patrón, se emplea la máscara compensada previamente realizada, utilizando los puntos y líneas guía correspondientes. El modelaje inicia con el ajuste de dicha máscara, siguiendo los pasos detallados a continuación:
@@ -234,7 +234,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_5_2.titulo-segundo.color-acento-contenido
       h2 5.2 Despiece de moldes para el modelo deportivo tipo court
     
     p.mb-5 En esta fase, el molde patrón se separa en las piezas individuales que permitirán su posterior corte y ensamblaje.
@@ -320,7 +320,7 @@
     .bg-full-width-2.bg-color-13.mb-3
       .px-4.px-md-5.py-4
         .row.justify-content-center.mb-5.align-items-end
-          .col-lg-6.mb3.mb-lg-0
+          .col-lg-6.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
               h5 Figura 43.
               span Despiece talón
@@ -334,50 +334,54 @@
           .col-lg-10
             div.bg-color-1.p-4
               p.mb-0 Utilice este primer punto para girar la pieza hasta que vuelva a coincidir con el eje central y dibuje esa parte, lo que permitirá identificar el segundo punto de giro.
-            .row.p-4.bg-color-7.justify-content-center
-              .col-lg-5
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 44.
-                  span Primer giro talón
-                figure
-                  img(src="@/assets/curso/temas/tema5/25.png", alt="Segunda sección del talón obtenida tras girar la pieza desde el primer punto para continuar el trazo sobre el eje central.  ", data-aos="zoom-in")
+            div.p-4.bg-color-7
+              .row.justify-content-center
+                .col-lg-5
+                  .titulo-sexto.color-acento-contenido
+                    h5 Figura 44.
+                    span Primer giro talón
+                  figure
+                    img(src="@/assets/curso/temas/tema5/25.png", alt="Segunda sección del talón obtenida tras girar la pieza desde el primer punto para continuar el trazo sobre el eje central.  ", data-aos="zoom-in")
         .row.justify-content-center.mb-3
           .col-lg-10
             div.bg-color-1.p-4
               p.mb-0 Luego, apoye en el segundo punto y gire la pieza hasta lograr nuevamente la coincidencia con el eje central; dibuje la línea del talón correspondiente y obtendrá el tercer punto de giro.
-            .row.p-4.bg-color-7.justify-content-center
-              .col-lg-5
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 45.
-                  span Segundo giro talón
-                figure
-                  img(src="@/assets/curso/temas/tema5/26.png", alt="Segunda sección del talón obtenida tras girar la pieza desde el primer punto para continuar el trazo sobre el eje central. ", data-aos="zoom-in")
+            div.p-4.bg-color-7
+              .row.justify-content-center
+                .col-lg-5
+                  .titulo-sexto.color-acento-contenido
+                    h5 Figura 45.
+                    span Segundo giro talón
+                  figure
+                    img(src="@/assets/curso/temas/tema5/26.png", alt="Segunda sección del talón obtenida tras girar la pieza desde el primer punto para continuar el trazo sobre el eje central. ", data-aos="zoom-in")
         .row.justify-content-center.mb-3
           .col-lg-10
             div.bg-color-1.p-4
               p.mb-0 Finalmente, apoye en el tercer punto y gire la pieza hasta que coincida completamente con el eje en la parte inferior.
-            .row.p-4.bg-color-7.justify-content-center
-              .col-lg-5
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 46.
-                  span Tercer giro talón
-                figure
-                  img(src="@/assets/curso/temas/tema5/27.png", alt="Último giro del molde para completar el contorno del talón, asegurando la simetría con el eje central.  ", data-aos="zoom-in")
+            div.p-4.bg-color-7
+              .row.justify-content-center
+                .col-lg-5
+                  .titulo-sexto.color-acento-contenido
+                    h5 Figura 46.
+                    span Tercer giro talón
+                  figure
+                    img(src="@/assets/curso/temas/tema5/27.png", alt="Último giro del molde para completar el contorno del talón, asegurando la simetría con el eje central.  ", data-aos="zoom-in")
         .row.justify-content-center.mb-3
           .col-lg-10
             div.bg-color-1.p-4
               p.mb-0 Para concluir, suavice las líneas obtenidas y escuadre la línea inferior de la pieza para corregir el ángulo. Por último, realice la simetría para obtener el molde completo del talón.
-            .row.p-4.bg-color-7.justify-content-center
-              .col-lg-10
-                .titulo-sexto.color-acento-contenido
-                  h5 Figura 47.
-                  span Ajuste talón
-                figure
-                  img(src="@/assets/curso/temas/tema5/28.png", alt="Suavizado del trazo del molde del talón, escuadrando la base para garantizar simetría y buena unión con otras piezas. ", data-aos="zoom-in")
+            div.p-4.bg-color-7
+              .row.justify-content-center
+                .col-lg-10
+                  .titulo-sexto.color-acento-contenido
+                    h5 Figura 47.
+                    span Ajuste talón
+                  figure
+                    img(src="@/assets/curso/temas/tema5/28.png", alt="Suavizado del trazo del molde del talón, escuadrando la base para garantizar simetría y buena unión con otras piezas. ", data-aos="zoom-in")
     
     separador
 
-    .titulo-segundo.color-acento-contenido
+    #t_5_3.titulo-segundo.color-acento-contenido
       h2 5.3 Moldes del forro para el modelo deportivo tipo Court
     
     p.mb-5 A continuación, se describen los procedimientos para obtener los moldes del forro correspondientes a la lengüeta, la capellada y el talón en el modelo deportivo tipo Court:
@@ -431,7 +435,7 @@
         
         separador
 
-        .titulo-segundo.color-acento-contenido
+        #t_5_4.titulo-segundo.color-acento-contenido
           h2 5.4 Moldes de abullonado para el modelo deportivo tipo Court
     
     p Esta sección detalla el procedimiento para obtener los moldes del abullonado del cuello y de la lengüeta en calzado deportivo tipo Court.

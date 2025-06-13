@@ -86,7 +86,7 @@ export default {
           {
             numero: '5.3',
             titulo: 'Moldes del forro para el modelo deportivo tipo Court',
-            hash: 't_5_5',
+            hash: 't_5_3',
           },
           {
             numero: '5.4',

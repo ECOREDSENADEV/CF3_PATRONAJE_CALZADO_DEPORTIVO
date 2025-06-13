@@ -30,7 +30,7 @@
             .bg-color-1.tarjeta.p-4.mb-3(data-aos="fade-left")
               .row.align-items-start
                 .col-lg-auto
-                  img(src="@/assets/curso/temas/tema1/3.svg", style="max-width: 90px").mx-auto
+                  img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/3.svg", style="max-width: 90px").mx-auto
                 .col-lg
                   p.mb-0 A lo largo de este módulo, se aplicarán técnicas manuales y criterios técnicos que permitirán desarrollar moldes con precisión y eficiencia, garantizando la funcionalidad y estética del producto final.
             
@@ -58,13 +58,13 @@
                   p.mb-0 Se obtienen colocando el borde de la horma por la línea de plantilla sobre una superficie recta de forma perpendicular de tal manera que la parte posterior de la horma toque esta superficie el otro punto de contacto sobre la superficie o punto tangencial será nuestro punto metatarsiano, esto se realiza en las dos caras de la horma como lo indica la siguiente imagen.
 
         .row.justify-content-center.mb-5
-          .col-lg-5
+          .col-lg-5.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
               h5 Figura 1.
               span Punto metatarsiano externo
             figure
               img(src="@/assets/curso/temas/tema1/5.png", data-aos="fade-up", alt="Fotografía técnica de una horma de calzado con marcas para identificar el punto metatarsiano externo, ubicado en la zona lateral delantera. ")
-          .col-lg-5
+          .col-lg-5.mb-3.mb-lg-0
             .titulo-sexto.color-acento-contenido
               h5 Figura 2.
               span Punto metatarsiano interno
