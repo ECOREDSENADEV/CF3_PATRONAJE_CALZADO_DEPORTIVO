@@ -2,31 +2,90 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
+    top: 12%
     right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    z-index: 3
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translatex(20px)
   100%
-    transform: translateY(0px)
-  
+    transform: translatex(0px)
+
 .banner-principal .tarjeta
   background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 400px !important
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/fondo-interno.png') !important
+
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #E0EE33
+  border-radius: 30px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: 14px
+  width: 60px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 64px
+
+.bg-color
+  &-1
+    background-color: #ADEEEE
+  &-2
+    background-color: #F7DCAC
+  &-white
+    background-color: #fff
+
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.shadow-app
+  background-color: #ffffff
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
+  padding: 20px
+  border-radius: 8px
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg1.svg") !important
+    background-position: bottom
+  &-2
+    background-image: url("../assets/curso/bg2.svg") !important
+    background-position: bottom
+  //&-slider
+    background-image: url("../assets/curso/bg-slider.png") !important
+    background-position: bottom
